@@ -148,19 +148,6 @@ O código está preparado para integração futura com uma API real — bastando
 
 ---
 
-## 📝 Notes (Notas do Desenvolvedor)
-
-Caso a API real não esteja disponível, a aplicação está pronta para integração — bastando configurar o endpoint base no arquivo `.env` e ajustar as funções em `src/api/notifications.ts`.
-
-**Com mais tempo, seria possível:**
-
-- Implementar paginação real via parâmetros `?page=`
-- Adicionar autenticação de usuários
-- Integrar WebSockets ou Meteor.js para notificações em tempo real
-- Criar testes unitários com Jest e React Testing Library
-
----
-
 ## 👩‍💻 Autora
 
 **Beatriz Chieffi Failla D'Addea**  
