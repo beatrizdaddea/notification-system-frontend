@@ -1,4 +1,3 @@
-```markdown
 # 📬 Notification Frontend
 
 ## 🧭 Visão Geral
@@ -167,5 +166,4 @@ Caso a API real não esteja disponível, a aplicação está pronta para integra
 **Beatriz Chieffi Failla D'Addea**  
 📍 São José dos Campos, São Paulo  
 📧 beatrizchith@gmail.com  
-🔗 LinkedIn • GitHub
-```
+
