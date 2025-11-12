@@ -59,6 +59,13 @@ src/
  │    └── NotificationsPage.tsx
  ├── types/             # Tipagem global (TypeScript)
  │    └── notification.ts
+ ├── __tests__/         # Testes (Jest/React Testing Library)
+ │    ├── components/
+ │    │    └── NotificationCard.test.tsx
+ │    ├── pages/
+ │    │    └── NotificationsPage.test.tsx
+ │    └── setup/
+ │         └── test-setup.ts
  ├── App.tsx
  ├── index.css          # TailwindCSS e estilos globais
  └── main.tsx
