@@ -25,7 +25,7 @@ A aplicação lista notificações de um usuário, permitindo **marcar como lida
 
 ```bash
 git clone https://github.com/beatrizdaddea/notification-system-frontend.git
-cd notification-frontend
+cd notification-system-frontend
 ```
 
 ### 2️⃣ Instalar dependências
