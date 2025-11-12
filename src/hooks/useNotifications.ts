@@ -1,4 +1,3 @@
-// hooks/useNotifications.ts
 import { useState, useCallback } from 'react';
 import type { Notification, PaginatedResponse } from '../types/notification';
 import { getNotifications, markAsRead, deleteNotification } from '../api/notifications';
@@ -40,7 +39,6 @@ export const useNotifications = () => {
     try {
       setError(null);
       await markAsRead(id);
-      // Atualização otimista
       setNotifications(prev =>
         prev.map(notif =>
           notif.id === id ? { ...notif, isRead: true } : notif
@@ -48,7 +46,6 @@ export const useNotifications = () => {
       );
     } catch (err) {
       setError('Falha ao marcar como lida');
-      // Recarregar para sincronizar
       await loadNotifications(pagination.page);
       throw err;
     }
@@ -58,9 +55,7 @@ export const useNotifications = () => {
     try {
       setError(null);
       await deleteNotification(id);
-      // Atualização otimista
       setNotifications(prev => prev.filter(notif => notif.id !== id));
-      // Atualizar paginação
       if (notifications.length === 1 && pagination.page > 1) {
         await loadNotifications(pagination.page - 1);
       } else {

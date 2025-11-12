@@ -1,9 +1,6 @@
-import React from "react";
 import { render, screen, fireEvent } from '@testing-library/react';
-import { describe, it, expect, vi, beforeEach, test } from "vitest";
+import { describe, expect, vi, beforeEach, test } from "vitest";
 import { Pagination } from '../../components/Pagination';
-import { mockNotifications } from "../setup/utils/test-utils";
-
 
 describe('Pagination component', () => {
   beforeEach(() => {

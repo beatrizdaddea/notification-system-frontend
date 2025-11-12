@@ -4,7 +4,7 @@ import { render } from '@testing-library/react'
 import type { RenderOptions } from '@testing-library/react'
 import type { Notification } from '../../../types/notification'
 
-// Mock data para testes
+// Mock data for tests
 export const mockNotifications: Notification[] = [
   {
     id: '1',

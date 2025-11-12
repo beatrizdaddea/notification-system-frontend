@@ -1,5 +1,3 @@
-// __tests__/pages/NotificationsPage.edge-cases.test.tsx
-import React from "react";
 import { describe, it, beforeEach, expect, vi } from "vitest";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { NotificationsPage } from "../../pages/NotificationsPage";

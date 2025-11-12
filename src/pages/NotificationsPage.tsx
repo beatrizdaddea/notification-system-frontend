@@ -1,4 +1,3 @@
-// pages/NotificationsPage.tsx
 import React, { useEffect, useState } from "react";
 import { FiBell, FiInbox, FiAlertCircle } from 'react-icons/fi';
 import { NotificationCard } from "../components/NotificationCard";
@@ -31,7 +30,6 @@ export const NotificationsPage: React.FC = () => {
     try {
       await markAsRead(id);
     } catch (err) {
-      // Error já é tratado no hook
     } finally {
       setActionLoading(null);
     }

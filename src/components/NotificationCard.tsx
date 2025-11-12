@@ -1,4 +1,3 @@
-// components/NotificationCard.tsx
 import React from 'react';
 import type { Notification } from '../types/notification';
 import { FiCalendar, FiCheck, FiTrash2 } from 'react-icons/fi';
