@@ -5,7 +5,7 @@
 Este projeto é uma **Single Page Application (SPA)** desenvolvida em **React.js + TypeScript**, com o objetivo de **consumir uma API de gestão de notificações**.  
 A aplicação lista notificações de um usuário, permitindo **marcar como lida** e **remover notificações**, exibindo claramente o status de cada uma.
 
-> 💡 *No contexto deste teste técnico, a API foi simulada localmente com dados mockados para demonstrar as interações previstas.*
+> 💡 *No contexto deste projeto, a API foi simulada localmente com dados mockados para demonstrar as interações previstas.*
 
 ---
 
@@ -24,7 +24,7 @@ A aplicação lista notificações de um usuário, permitindo **marcar como lida
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/beatrizdaddea/notification-frontend.git
+git clone https://github.com/beatrizdaddea/notification-system-frontend.git
 cd notification-frontend
 ```
 
